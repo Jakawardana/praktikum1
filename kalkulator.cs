@@ -8,17 +8,17 @@ class kalkulator
     {
         static void Main(string[]args)
 		{
-		 onsole.WriteLine("Aplikasi Calculator");
-			Console.WriteLine();
-            Console.WriteLine("1.Penambahan");
-            Console.WriteLine("2.Pengurangan");
-            Console.WriteLine("3.Perkalian");
-            Console.WriteLine("4.Pembagian");
-			Console.WriteLine();
-            Console.Write("Masukan Pilihan(1-4):");
+		Console.WriteLine("Aplikasi Calculator");
+		Console.WriteLine();
+            	Console.WriteLine("1.Penambahan");
+            	Console.WriteLine("2.Pengurangan");
+            	Console.WriteLine("3.Perkalian");
+            	Console.WriteLine("4.Pembagian");
+		Console.WriteLine();
+            	Console.Write("Masukan Pilihan(1-4):");
             
-			int angka1, angka2, total = 0;
-            int pilihan = Int32.Parse(Console.ReadLine());
+		int angka1, angka2, total = 0;
+            	int pilihan = Int32.Parse(Console.ReadLine());
 
             if (pilihan == 1)
             {
